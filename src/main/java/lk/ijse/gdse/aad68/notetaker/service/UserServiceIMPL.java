@@ -1,9 +1,8 @@
 package lk.ijse.gdse.aad68.notetaker.service;
 
-import com.fasterxml.jackson.annotation.JsonRawValue;
 import lk.ijse.gdse.aad68.notetaker.dao.UserDao;
-import lk.ijse.gdse.aad68.notetaker.dto.NoteDTO;
 import lk.ijse.gdse.aad68.notetaker.dto.UserDTO;
+import lk.ijse.gdse.aad68.notetaker.entity.UserEntity;
 import lk.ijse.gdse.aad68.notetaker.util.AppUtil;
 import lk.ijse.gdse.aad68.notetaker.util.Mapping;
 import lombok.RequiredArgsConstructor;
@@ -39,6 +38,7 @@ public class UserServiceIMPL implements UserService {
     public boolean deleteUser(String userId) {
         if(userDao.existsById(userId)) {
             userDao.deleteById(userId);
+            System.out.println("User Deleted Successfully");
             return true;
         }else {
             return false;
@@ -46,8 +46,9 @@ public class UserServiceIMPL implements UserService {
     }
 
     @Override
-    public NoteDTO getSelectedUser(String userId) {
-        return null;
+    public UserDTO getSelectedUser(String userId) {
+        UserEntity userEntityByUserId = userDao.getUserEntityByUserId(userId);
+        return mapping.convertToUserDTO(userEntityByUserId);
     }
 
     @Override
