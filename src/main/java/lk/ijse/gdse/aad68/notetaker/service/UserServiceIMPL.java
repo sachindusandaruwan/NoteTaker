@@ -24,10 +24,18 @@ public class UserServiceIMPL implements UserService {
 
     @Override
     public String saveUser(UserDTO userDTO) {
-        userDTO.setUserId(AppUtil.createUserId());
+        /*userDTO.setUserId(AppUtil.createUserId());
         userDao.save(mapping.convertToEntity(userDTO));
 
-        return "User Saved Successfully";
+        return "User Saved Successfully";*/
+        userDTO.setUserId(AppUtil.createUserId());
+        UserEntity saveUser=userDao.save(mapping.convertToEntity(userDTO));
+        if (saveUser!=null && saveUser.getUserId()!=null) {
+            return "User saved successfully";
+        }
+        else {
+            return "User not saved";
+        }
     }
 
     @Override

@@ -42,7 +42,14 @@ public class UserController {
         buildUserDTO.setProfilePic(base64ProfilePic);
 
         //send to the service layer
-        return new ResponseEntity<>(userService.saveUser(buildUserDTO), HttpStatus.CREATED);
+       // return new ResponseEntity<>(userService.saveUser(buildUserDTO), HttpStatus.CREATED);
+        String savedStatus = userService.saveUser(buildUserDTO);
+        if (savedStatus.contains("user saved successfully")) {
+            return new ResponseEntity<>(savedStatus, HttpStatus.CREATED);
+
+        }else {
+            return new ResponseEntity<>(savedStatus, HttpStatus.INTERNAL_SERVER_ERROR);
+        }
     }
 
     @DeleteMapping("/{id}")
