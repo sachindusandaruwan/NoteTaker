@@ -9,7 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59ef471c-fe17-462b-83a5-b233508ed9df" name="Changes" comment="add update User" />
+    <list default="true" id="59ef471c-fe17-462b-83a5-b233508ed9df" name="Changes" comment="add userNotFoundException class">
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/UserServiceIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/UserServiceIMPL.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +24,7 @@
       <list>
         <option value="Class" />
         <option value="Interface" />
+        <option value="Exception" />
       </list>
     </option>
   </component>
@@ -195,7 +200,7 @@
       <workItem from="1725775035369" duration="746000" />
       <workItem from="1725775809822" duration="124000" />
       <workItem from="1725775966934" duration="167000" />
-      <workItem from="1725776250302" duration="4651000" />
+      <workItem from="1725776250302" duration="7439000" />
     </task>
     <task id="LOCAL-00001" summary="add delete User">
       <option name="closed" value="true" />
@@ -229,7 +234,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725781213556</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add userNotFoundException class">
+      <option name="closed" value="true" />
+      <created>1725786576363</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725786576363</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add userNotFoundException class">
+      <option name="closed" value="true" />
+      <created>1725786983233</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725786983233</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +261,7 @@
     <MESSAGE value="add get User" />
     <MESSAGE value="add all get User" />
     <MESSAGE value="add update User" />
-    <option name="LAST_COMMIT_MESSAGE" value="add update User" />
+    <MESSAGE value="add userNotFoundException class" />
+    <option name="LAST_COMMIT_MESSAGE" value="add userNotFoundException class" />
   </component>
 </project>
