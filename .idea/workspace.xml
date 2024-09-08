@@ -9,10 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59ef471c-fe17-462b-83a5-b233508ed9df" name="Changes" comment="add userNotFoundException class">
+    <list default="true" id="59ef471c-fe17-462b-83a5-b233508ed9df" name="Changes" comment="modify return types">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/dto/SuperDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/controller/NoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/controller/NoteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/custom/UserErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/custom/UserErrorResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/dto/NoteDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/dto/impl/NoteDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/dto/impl/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/NoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/NoteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/NoteServiceIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/NoteServiceIMPL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/UserServiceIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/UserServiceIMPL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/util/Mapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/util/Mapping.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +31,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Exception" />
         <option value="Class" />
         <option value="Interface" />
-        <option value="Exception" />
       </list>
     </option>
   </component>
@@ -200,7 +209,7 @@
       <workItem from="1725775035369" duration="746000" />
       <workItem from="1725775809822" duration="124000" />
       <workItem from="1725775966934" duration="167000" />
-      <workItem from="1725776250302" duration="7439000" />
+      <workItem from="1725776250302" duration="9265000" />
     </task>
     <task id="LOCAL-00001" summary="add delete User">
       <option name="closed" value="true" />
@@ -250,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725786983233</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="modify return types">
+      <option name="closed" value="true" />
+      <created>1725787857255</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725787857255</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +279,7 @@
     <MESSAGE value="add all get User" />
     <MESSAGE value="add update User" />
     <MESSAGE value="add userNotFoundException class" />
-    <option name="LAST_COMMIT_MESSAGE" value="add userNotFoundException class" />
+    <MESSAGE value="modify return types" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify return types" />
   </component>
 </project>
