@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @Transactional
@@ -30,8 +31,20 @@ public class UserServiceIMPL implements UserService {
     }
 
     @Override
-    public boolean updateUser(String userId, UserDTO userDTO) {
-        return false;
+    public boolean updateUser( UserDTO userDTO) {
+        //optional use kare null point exception handle karanna
+        Optional<UserEntity> tempUser=userDao.findById(userDTO.getUserId());
+        if(!tempUser.isPresent()){
+            return false;
+        }else {
+            tempUser.get().setFirstName(userDTO.getFirstName());
+            tempUser.get().setLastName(userDTO.getLastName());
+            tempUser.get().setEmail(userDTO.getEmail());
+            tempUser.get().setPassword(userDTO.getPassword());
+            tempUser.get().setProfilePic(userDTO.getProfilePic());
+            //tempUser.get().setNotes(userDTO.getNotes());
+        }
+        return true;
     }
 
     @Override
