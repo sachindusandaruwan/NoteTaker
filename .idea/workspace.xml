@@ -9,23 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59ef471c-fe17-462b-83a5-b233508ed9df" name="Changes" comment="add delete User">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="59ef471c-fe17-462b-83a5-b233508ed9df" name="Changes" comment="add get User">
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/UserServiceIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/UserServiceIMPL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/util/Mapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/util/Mapping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/service/UserServiceIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/service/UserServiceIMPL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/util/Mapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/util/Mapping.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/service/UserServiceIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/service/UserServiceIMPL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/util/Mapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/util/Mapping.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,30 +58,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Tomcat Server.Tomcat 10.1.24.executor": "Run",
-    "Tomcat Server.Tomcat 10.1.241.executor": "Run",
-    "Tomcat Server.Tomcat 10.1.242.executor": "Run",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Working Directory 2.0/My Projects/My Tube",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.24.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.241.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.242.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Working Directory 2.0/My Projects/My Tube&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Tomcat 10.1.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.24" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -212,6 +199,7 @@
       <workItem from="1725775035369" duration="746000" />
       <workItem from="1725775809822" duration="124000" />
       <workItem from="1725775966934" duration="167000" />
+      <workItem from="1725776250302" duration="610000" />
     </task>
     <task id="LOCAL-00001" summary="add delete User">
       <option name="closed" value="true" />
@@ -221,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725772617447</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add get User">
+      <option name="closed" value="true" />
+      <created>1725776484159</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725776484159</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +225,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add delete User" />
-    <option name="LAST_COMMIT_MESSAGE" value="add delete User" />
+    <MESSAGE value="add get User" />
+    <option name="LAST_COMMIT_MESSAGE" value="add get User" />
   </component>
 </project>
