@@ -9,22 +9,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59ef471c-fe17-462b-83a5-b233508ed9df" name="Changes" comment="Revised the multipart binary file as String">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/controller/HealthTestController.java" afterDir="false" />
+    <list default="true" id="59ef471c-fe17-462b-83a5-b233508ed9df" name="Changes" comment="create healthCheckController">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/custom/NoteErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/custom/NoteResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/controller/HealthTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/controller/HealthTestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/controller/NoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/controller/NoteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/util/AppUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/util/AppUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/dto/impl/NoteDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/dto/impl/NoteDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/NoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/NoteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/NoteServiceIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/NoteServiceIMPL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/controller/NoteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/controller/NoteController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/dto/impl/NoteDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/dto/impl/NoteDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/service/NoteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/service/NoteService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/service/NoteServiceIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/service/NoteServiceIMPL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/util/AppUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/util/AppUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/controller/NoteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/controller/NoteController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/dto/impl/NoteDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/dto/impl/NoteDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/service/NoteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/service/NoteService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/service/NoteServiceIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/service/NoteServiceIMPL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/util/AppUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/util/AppUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Exception" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -67,6 +68,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2lGoSyzS0aqycHPxferJrOUNl6c" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -215,7 +219,7 @@
       <workItem from="1725776250302" duration="12753000" />
       <workItem from="1727503134789" duration="1875000" />
       <workItem from="1727580997363" duration="560000" />
-      <workItem from="1727582092234" duration="2701000" />
+      <workItem from="1727582092234" duration="7314000" />
     </task>
     <task id="LOCAL-00001" summary="add delete User">
       <option name="closed" value="true" />
@@ -305,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727583648250</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="create healthCheckController">
+      <option name="closed" value="true" />
+      <created>1727585231575</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1727585231575</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +334,7 @@
     <MESSAGE value="modify delete User" />
     <MESSAGE value="modify save User" />
     <MESSAGE value="Revised the multipart binary file as String" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revised the multipart binary file as String" />
+    <MESSAGE value="create healthCheckController" />
+    <option name="LAST_COMMIT_MESSAGE" value="create healthCheckController" />
   </component>
 </project>

@@ -4,6 +4,7 @@ import jakarta.transaction.Transactional;
 import lk.ijse.gdse.aad68.notetaker.dao.NoteDao;
 import lk.ijse.gdse.aad68.notetaker.dto.impl.NoteDTO;
 import lk.ijse.gdse.aad68.notetaker.entity.NoteEntity;
+import lk.ijse.gdse.aad68.notetaker.exception.DataPersistFailedException;
 import lk.ijse.gdse.aad68.notetaker.exception.NoteNotFoundException;
 import lk.ijse.gdse.aad68.notetaker.util.AppUtil;
 import lk.ijse.gdse.aad68.notetaker.util.Mapping;
@@ -22,11 +23,14 @@ public  class NoteServiceIMPL implements NoteService {
     private Mapping mapping;
 
     @Override
-    public String saveNote(NoteDTO noteDTO) {
+    public void saveNote(NoteDTO noteDTO) {
         noteDTO.setNoteId(AppUtil.createNoteId());
         var noteEntity = mapping.convertToEntity(noteDTO);
-        noteDao.save(noteEntity);
-        return "Saved successfully in Service layer";
+        var savedNote=noteDao.save(noteEntity);
+        if(savedNote==null){
+            throw new DataPersistFailedException("note not saved");
+        }
+//        return "Saved successfully in Service layer";
     }
 
     @Override
@@ -44,17 +48,26 @@ public  class NoteServiceIMPL implements NoteService {
     }
 
     @Override
-    public boolean deleteNote(String noteId) {
+    public void deleteNote(String noteId) {
 //        System.out.println(noteId);
 //        noteDao.deleteById(noteId);
 //        System.out.println("delete successfully!!!");
+        Optional<NoteEntity> findId=noteDao.findById(noteId);
 
-        if (noteDao.existsById(noteId)) {
-            noteDao.deleteById(noteId);
-            return true;
+        if(!findId.isPresent()){
+            throw new NoteNotFoundException("User is not found!!");
+
         }else {
-            return false;
+            noteDao.deleteById(noteId);
+
         }
+
+//        if (noteDao.existsById(noteId)) {
+//            noteDao.deleteById(noteId);
+//            return true;
+//        }else {
+//            return false;
+//        }
 
     }
 

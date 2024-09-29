@@ -12,3 +12,4 @@ public class HealthTestController {
         return "Note collector app run successfull!";
     }
 }
+//health check ekak danne hariyata run wenawada balanna(end poidekata req ekak dammama response ekak denna puluwanda balanna)
