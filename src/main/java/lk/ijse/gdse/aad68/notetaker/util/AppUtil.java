@@ -19,7 +19,6 @@ public class AppUtil {
     }
 
     public static String toBase64ProfilePic(MultipartFile profilePic){
-//        String proPicBase64=null;
         try {
             byte[] imageToByte=profilePic.getBytes();
             return Base64.getEncoder().encodeToString(imageToByte);

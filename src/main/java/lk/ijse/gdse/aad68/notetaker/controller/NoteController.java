@@ -23,6 +23,7 @@ public class NoteController {
 
     @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<String> createNote(@RequestBody NoteDTO note) {
+
         //Todo: Handle with Service
         var saveData = noteService.saveNote(note);
         return ResponseEntity.ok(saveData);
@@ -57,8 +58,9 @@ public class NoteController {
 
     }
 
-    @GetMapping(value = "health")
-    public String healthCheck() {
-        return "Note Taker is Running...";
-    }
+//    @GetMapping(value = "health")
+//    public String healthCheck() {
+//        return "Note Taker is Running...";
+//    }
+
 }
