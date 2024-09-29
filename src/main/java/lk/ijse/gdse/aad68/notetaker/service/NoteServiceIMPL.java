@@ -4,6 +4,7 @@ import jakarta.transaction.Transactional;
 import lk.ijse.gdse.aad68.notetaker.dao.NoteDao;
 import lk.ijse.gdse.aad68.notetaker.dto.impl.NoteDTO;
 import lk.ijse.gdse.aad68.notetaker.entity.NoteEntity;
+import lk.ijse.gdse.aad68.notetaker.exception.NoteNotFoundException;
 import lk.ijse.gdse.aad68.notetaker.util.AppUtil;
 import lk.ijse.gdse.aad68.notetaker.util.Mapping;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,18 +30,17 @@ public  class NoteServiceIMPL implements NoteService {
     }
 
     @Override
-    public boolean updateNote(String noteId, NoteDTO incomeNoteDTO) {
+    public void updateNote(String noteId, NoteDTO incomeNoteDTO) {
 
        Optional<NoteEntity> tempNoteEntityById = noteDao.findById(noteId);
        if(!tempNoteEntityById.isPresent()){
-           return false;
+           throw new NoteNotFoundException("User is not found!!");
        }else {
            tempNoteEntityById.get().setNoteDesc(incomeNoteDTO.getNoteDesc());
            tempNoteEntityById.get().setNoteTitle(incomeNoteDTO.getNoteTitle());
            tempNoteEntityById.get().setCreateDate(incomeNoteDTO.getCreateDate());
            tempNoteEntityById.get().setPriorityLevel(incomeNoteDTO.getPriorityLevel());
        }
-       return true;
     }
 
     @Override
