@@ -1,6 +1,8 @@
 package lk.ijse.gdse.aad68.notetaker.service;
 
 import jakarta.transaction.Transactional;
+import lk.ijse.gdse.aad68.notetaker.custom.NoteErrorResponse;
+import lk.ijse.gdse.aad68.notetaker.custom.NoteResponse;
 import lk.ijse.gdse.aad68.notetaker.dao.NoteDao;
 import lk.ijse.gdse.aad68.notetaker.dto.impl.NoteDTO;
 import lk.ijse.gdse.aad68.notetaker.entity.NoteEntity;
@@ -72,14 +74,21 @@ public  class NoteServiceIMPL implements NoteService {
     }
 
     @Override
-    public NoteDTO getSelectedNote(String noteId) {
+    public NoteResponse getSelectedNote(String noteId) {
+        if(noteDao.existsById(noteId)){
+            return mapping.convertToDTO(noteDao.getReferenceById(noteId));
+        }else {
+            return new NoteErrorResponse(0,"Note not found");
+        }
+    }
+    /*public NoteDTO getSelectedNote(String noteId) {
 
 //        NoteEntity selectNote = noteDao.getReferenceById(noteId);
 //        return mapping.convertToDTO(selectNote);
 
         return mapping.convertToDTO(noteDao.getReferenceById(noteId));
 
-    }
+    }*/
 
 
 
