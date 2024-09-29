@@ -9,23 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59ef471c-fe17-462b-83a5-b233508ed9df" name="Changes" comment="create healthCheckController">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/custom/NoteErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/custom/NoteResponse.java" afterDir="false" />
+    <list default="true" id="59ef471c-fe17-462b-83a5-b233508ed9df" name="Changes" comment="Optimized the process of delete,update,get,create a note with custom exception handling and note with controller validation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/controller/HealthTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/controller/HealthTestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/controller/NoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/controller/NoteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/dto/impl/NoteDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/dto/impl/NoteDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/NoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/NoteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/NoteServiceIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/NoteServiceIMPL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/controller/NoteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/controller/NoteController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/dto/impl/NoteDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/dto/impl/NoteDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/service/NoteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/service/NoteService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/service/NoteServiceIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/service/NoteServiceIMPL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/controller/NoteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/controller/NoteController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/dto/impl/NoteDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/dto/impl/NoteDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/service/NoteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/service/NoteService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/service/NoteServiceIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/service/NoteServiceIMPL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/util/Mapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/util/Mapping.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +205,7 @@
       <workItem from="1725776250302" duration="12753000" />
       <workItem from="1727503134789" duration="1875000" />
       <workItem from="1727580997363" duration="560000" />
-      <workItem from="1727582092234" duration="7314000" />
+      <workItem from="1727582092234" duration="8731000" />
     </task>
     <task id="LOCAL-00001" summary="add delete User">
       <option name="closed" value="true" />
@@ -317,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727585231575</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Optimized the process of delete,update,get,create a note with custom exception handling and note with controller validation">
+      <option name="closed" value="true" />
+      <created>1727591792894</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1727591792894</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,6 +329,7 @@
     <MESSAGE value="modify save User" />
     <MESSAGE value="Revised the multipart binary file as String" />
     <MESSAGE value="create healthCheckController" />
-    <option name="LAST_COMMIT_MESSAGE" value="create healthCheckController" />
+    <MESSAGE value="Optimized the process of delete,update,get,create a note with custom exception handling and note with controller validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimized the process of delete,update,get,create a note with custom exception handling and note with controller validation" />
   </component>
 </project>
