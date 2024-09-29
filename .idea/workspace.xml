@@ -9,16 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59ef471c-fe17-462b-83a5-b233508ed9df" name="Changes" comment="update getall notes(get note details and userId)">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/86c27c50-1291-44a9-8bce-5f2a4584573d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/86c27c50-1291-44a9-8bce-5f2a4584573d.xml" afterDir="false" />
+    <list default="true" id="59ef471c-fe17-462b-83a5-b233508ed9df" name="Changes" comment="update getNote">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/NoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/NoteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/NoteServiceIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/service/NoteServiceIMPL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/util/Mapping$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/util/Mapping$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/util/Mapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/NoteTaker-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/aad68/notetaker/util/Mapping.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/util/Mapping$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/util/Mapping$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/util/Mapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/aad68/notetaker/util/Mapping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/controller/NoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/controller/NoteController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +205,7 @@
       <workItem from="1725776250302" duration="12753000" />
       <workItem from="1727503134789" duration="1875000" />
       <workItem from="1727580997363" duration="560000" />
-      <workItem from="1727582092234" duration="10128000" />
+      <workItem from="1727582092234" duration="12032000" />
     </task>
     <task id="LOCAL-00001" summary="add delete User">
       <option name="closed" value="true" />
@@ -326,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727593662838</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update getNote">
+      <option name="closed" value="true" />
+      <created>1727595109137</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1727595109137</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,6 +347,7 @@
     <MESSAGE value="create healthCheckController" />
     <MESSAGE value="Optimized the process of delete,update,get,create a note with custom exception handling and note with controller validation" />
     <MESSAGE value="update getall notes(get note details and userId)" />
-    <option name="LAST_COMMIT_MESSAGE" value="update getall notes(get note details and userId)" />
+    <MESSAGE value="update getNote" />
+    <option name="LAST_COMMIT_MESSAGE" value="update getNote" />
   </component>
 </project>
