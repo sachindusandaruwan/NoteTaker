@@ -6,5 +6,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface NoteDao extends JpaRepository<NoteEntity, String> {
+    //<entity,primary key eke data type eka>
 
 }

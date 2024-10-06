@@ -9,9 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59ef471c-fe17-462b-83a5-b233508ed9df" name="Changes" comment="update getNote">
+    <list default="true" id="59ef471c-fe17-462b-83a5-b233508ed9df" name="Changes" comment="update getAllNotes">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/controller/NoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/controller/NoteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/dao/NoteDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/aad68/notetaker/dao/NoteDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +206,8 @@
       <workItem from="1725776250302" duration="12753000" />
       <workItem from="1727503134789" duration="1875000" />
       <workItem from="1727580997363" duration="560000" />
-      <workItem from="1727582092234" duration="12032000" />
+      <workItem from="1727582092234" duration="14092000" />
+      <workItem from="1728103450003" duration="724000" />
     </task>
     <task id="LOCAL-00001" summary="add delete User">
       <option name="closed" value="true" />
@@ -327,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727595109137</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="update getAllNotes">
+      <option name="closed" value="true" />
+      <created>1727596923078</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1727596923078</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,6 +358,7 @@
     <MESSAGE value="Optimized the process of delete,update,get,create a note with custom exception handling and note with controller validation" />
     <MESSAGE value="update getall notes(get note details and userId)" />
     <MESSAGE value="update getNote" />
-    <option name="LAST_COMMIT_MESSAGE" value="update getNote" />
+    <MESSAGE value="update getAllNotes" />
+    <option name="LAST_COMMIT_MESSAGE" value="update getAllNotes" />
   </component>
 </project>
